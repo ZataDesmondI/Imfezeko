@@ -9027,3 +9027,68 @@ img{
 
 
 
+/* Make service cards equal height */
+.services-block-four .inner-box{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Image container size */
+.services-block-four .lower-content .image{
+    width: 100%;
+    height: 220px; /* adjust if you want bigger images */
+    overflow: hidden;
+}
+
+/* Make images fit and stay equal */
+.services-block-four .lower-content .image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* Make service blocks align nicely in rows */
+.services-block-four{
+    margin-bottom: 30px;
+}
+
+
+
+/* Make blog blocks same height */
+.news-block .inner-box{
+    height:100%;
+    display:flex;
+    flex-direction:column;
+}
+
+/* Image container */
+.news-block .image{
+    width:100%;
+    height:250px; /* adjust if you want taller images */
+    overflow:hidden;
+    position:relative;
+}
+
+/* Make images equal and nicely cropped */
+.news-block .image img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    display:block;
+}
+
+/* Keep lower content aligned */
+.news-block .lower-content{
+    flex-grow:1;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+}
+
+/* spacing between rows */
+.news-block{
+    margin-bottom:30px;
+}
